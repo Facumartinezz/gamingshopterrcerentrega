@@ -153,24 +153,7 @@ main{
 
 /* Termina el index */
 
-/* Empieza contacto.html */
-.main-contacto{
-    background-image: url(/img/logilogo.png);
-}
 
-.div-contacto{ 
-    background-color: rgba(255, 47, 0, 0.5);
-    width: 80%;
-    padding: 20px;
-    
-}
-
-.div-contacto a{
-    text-transform: uppercase;
-    font-family: 'Exo 2', sans-serif;
-    
-}
-/* Termina contacto.html */
 
 /* Empieza productos.html */
 .main-productos{
@@ -265,90 +248,6 @@ main{
 }
 /* Termina productos.html */
 
-/* Empieza lomasnuevo.html */
-.main-lomasnuevo{
-    background-image: url(/img/logomsi.jpg);
-}
-
-.div-lomastitulo{
-    background-color: rgba(255, 0, 242, 0.5);
-    width: 80%;
-    padding: 30px;
-}
-
-.section-lomasnuevo{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-.h2lomasnuevo{
-    font-size: 25px;
-    padding: 15px;
-    background-color: red;
-    text-align: center;
-}
-
-.div-lomasnuevo{
-    width: 300px;
-    height: 400px;
-    border-radius: 15px;
-    border: 10px solid red;
-    background-color: black;
-}
-
-.producto-nuevouno{
-    height: 200px;
-    background-image: url(/img/monitorgamer.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-}
-
-.producto-nuevodos{
-    height: 200px;
-    background-image: url(/img/gabinete.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-
-}
-
-.producto-nuevotres{
-    height: 200px;
-    background-image: url(/img/procesador.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-
-}
-
-.div-lomasnuevo p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 20px;
-    font-size: 15px;
-}
-
-.productosnuevo-totales{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
-}
-
-.precio-productosnuevo{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-}
-
-.botoncompranuevo{
-    padding: 10px;
-    color: black;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 10px;
-}
-
-/* Termina lomasnuevo.html */
 
 /* empieza nosotros.html */
  .main-nosotros{
