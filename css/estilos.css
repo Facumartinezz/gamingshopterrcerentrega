@@ -15,7 +15,6 @@ background-color: gray;
 }
 
 header{
-    background-color: rgb(0, 0, 255, 0.6);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -119,7 +118,7 @@ main{
 
 }
 
-.div-grid-tres{
+.div-grid-dos{
     height: 200px;
     background-image: url(/img/procesador.jpg);
     background-size: cover;
