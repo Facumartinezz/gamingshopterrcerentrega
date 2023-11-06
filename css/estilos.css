@@ -38,12 +38,12 @@ h2{
     font-size: 40px;
 }
 
-.barra-header ul li{
+.header-grid-container ul li{
     list-style-type: none;
     display: inline-block;
 }
 
-.barra-header a{
+.header-grid-container a{
     text-decoration: none;
 
 }
@@ -62,20 +62,20 @@ main{
 
 
 
-.bienvenida{
+.bienvenida-grid-container{
     background-color: rgb(0, 0, 255, 0.5);
     width: 80%;
     padding: 30px;
     
 }
 
-.bienvenida p{
+.bienvenida-grid-container p{
     margin-bottom: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
 }
 
-.bienvenida a{
+.bienvenida-grid-container a{
     color: blue;
     background-color: white;
     font-weight: bolder;
@@ -84,7 +84,7 @@ main{
     border-radius: 15px;
 }
 
-.section-index{
+.section-grid-container{
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -93,7 +93,7 @@ main{
 }
 
 
-.div-index{
+.div-grid-container{
     width: 300px;
     height: 400px;
     text-align: center;
@@ -102,7 +102,7 @@ main{
     background-color: black;
 }
 
-.producto-indexuno{
+.div-grid-uno{
     height: 200px;
     background-image: url(/img/monitorgamer.jpg);
     background-size: cover;
@@ -110,7 +110,7 @@ main{
     border-radius: 15px 15px 0px 0px;
 }
 
-.producto-indexdos{
+.div-grid-dos{
     height: 200px;
     background-image: url(/img/gabinete.jpg);
     background-size: cover;
@@ -119,7 +119,7 @@ main{
 
 }
 
-.producto-indextres{
+.div-grid-tres{
     height: 200px;
     background-image: url(/img/procesador.jpg);
     background-size: cover;
