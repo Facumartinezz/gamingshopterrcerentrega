@@ -9,7 +9,7 @@
     font-family: 'Pixelify Sans', cursive;}
 
 body{
-background-image: url(/img/logo.jpg);
+background-image: url(../img/logo.jpg);
 background-size: 100px;
 background-color: gray;
 }
@@ -50,7 +50,7 @@ h2{
 main{
     height: calc(100vh - 20px);   
     background-color: black;
-    background-image: url(/img/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -103,7 +103,7 @@ main{
 
 .div-grid-uno{
     height: 200px;
-    background-image: url(/img/monitorgamer.jpg);
+    background-image: url(../img/monitorgamer.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0px 0px;
@@ -111,7 +111,7 @@ main{
 
 .div-grid-dos{
     height: 200px;
-    background-image: url(/img/gabinete.jpg);
+    background-image: url(../img/gabinete.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0px 0px;
@@ -120,7 +120,7 @@ main{
 
 .div-grid-tres{
     height: 200px;
-    background-image: url(/img/procesador.jpg);
+    background-image: url(../img/procesador.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0px 0px;
@@ -156,7 +156,7 @@ main{
 
 /* Empieza productos.html */
 .main-productos{
-    background-image: url(/img/asuslogo.jpg);
+    background-image: url(../img/asuslogo.jpg);
 }
 
 .h2productos{
@@ -199,7 +199,7 @@ main{
 
 .productouno{
     height: 200px;
-    background-image: url(/img/monitorgamer.jpg);
+    background-image: url(../img/monitorgamer.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0px 0px;
@@ -207,7 +207,7 @@ main{
 
 .productodos{
     height: 200px;
-    background-image: url(/img/gabinete.jpg);
+    background-image: url(../img/gabinete.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0px 0px;
@@ -216,7 +216,7 @@ main{
 
 .productotres{
     height: 200px;
-    background-image: url(/img/procesador.jpg);
+    background-image: url(../img/procesador.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0px 0px;
@@ -250,7 +250,7 @@ main{
 
 /* empieza nosotros.html */
  .main-nosotros{
-    background-image: url(/img/razerlogo.png);
+    background-image: url(../img/razerlogo.png);
 
 } 
 
