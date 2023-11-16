@@ -335,18 +335,18 @@ main{
 /*Termina lomasnuevo.html*/
 
 /* Empieza contacto.html */
-.main-contacto{
+.main-contactos{
     background-image: url(../img/logilogo.png);
 }
 
-.div-contacto{ 
+.div-contactos{ 
     background-color: rgba(255, 47, 0, 0.5);
     width: 80%;
     padding: 20px;
     
 }
 
-.div-contacto a{
+.div-contactos a{
     text-transform: uppercase;
     font-family: 'Exo 2', sans-serif;
     
