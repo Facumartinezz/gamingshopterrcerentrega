@@ -88,48 +88,6 @@ main{
     border-radius: 15px;
 }
 
-.section-grid-container{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-.div-grid-container{
-    width: 300px;
-    height: 400px;
-    text-align: center;
-    border-radius: 15px;
-    border: 10px solid silver;
-    background-color: black;
-}
-
-.div-grid-uno{
-    height: 200px;
-    background-image: url(../img/monitorgamer.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-}
-
-.div-grid-dos{
-    height: 200px;
-    background-image: url(../img/gabinete.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-
-}
-
-.div-grid-tres{
-    height: 200px;
-    background-image: url(../img/procesador.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-
-}
 
 .div-index p{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -183,13 +141,7 @@ main{
     text-align: center;
 }
 
-.section-productos{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
-}
+
 
 .h2lomasvendido{
     font-size: 35px;
@@ -198,16 +150,24 @@ main{
     background-color: blue;
 }
 
-.div-productos{
+.section-grid-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.div-grid-container{
     width: 300px;
     height: 400px;
     text-align: center;
     border-radius: 15px;
-    border: 10px solid blue;
+    border: 10px solid silver;
     background-color: black;
 }
 
-.productouno{
+.div-grid-uno{
     height: 200px;
     background-image: url(../img/monitorgamer.jpg);
     background-size: cover;
@@ -215,7 +175,7 @@ main{
     border-radius: 15px 15px 0px 0px;
 }
 
-.productodos{
+.div-grid-dos{
     height: 200px;
     background-image: url(../img/gabinete.jpg);
     background-size: cover;
@@ -224,7 +184,7 @@ main{
 
 }
 
-.productotres{
+.div-grid-tres{
     height: 200px;
     background-image: url(../img/procesador.jpg);
     background-size: cover;
@@ -233,11 +193,7 @@ main{
 
 }
 
-.div-productos p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 20px;
-    font-size: 15px;
-}
+
 
 .productos-totales{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -284,15 +240,16 @@ main{
     text-align: center;
 }
 
-.div-lomasnuevo{
+.div-grid-container-lomas{
     width: 300px;
     height: 400px;
     border-radius: 15px;
     border: 10px solid red;
     background-color: black;
+    text-align: center;
 }
 
-.producto-nuevouno{
+.div-grid-uno-lomas{
     height: 200px;
     background-image: url(../img/monitorgamer.jpg);
     background-size: cover;
@@ -300,7 +257,7 @@ main{
     border-radius: 15px 15px 0px 0px;
 }
 
-.producto-nuevodos{
+.div-grid-dos-lomas{
     height: 200px;
     background-image: url(../img/gabinete.jpg);
     background-size: cover;
@@ -309,20 +266,6 @@ main{
 
 }
 
-.producto-nuevotres{
-    height: 200px;
-    background-image: url(../img/procesador.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-
-}
-
-.div-lomasnuevo p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 20px;
-    font-size: 15px;
-}
 
 .productosnuevo-totales{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
