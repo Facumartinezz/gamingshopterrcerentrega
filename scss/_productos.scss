@@ -1,0 +1,86 @@
+/* Empieza productos.html */
+
+.main-productos {
+    background-image: url(../img/asuslogo.jpg);
+}
+
+.h2productos {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    background-color: $background-color-azul;
+}
+
+.div-productos-titulo {
+    background-color: rgba(0, 255, 183, 0.5);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.h2lomasvendido {
+    font-size: 35px;
+    padding: 15px;
+    width: 90%;
+    background-color: $background-color-azul;
+}
+
+.section-grid-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.div-grid-container {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+    border: 10px solid silver;
+    background-color: black;
+}
+
+.div-grid-uno {
+    height: 200px;
+    background-image: url(../img/monitorgamer.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.div-grid-dos {
+    height: 200px;
+    background-image: url(../img/gabinete.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.div-grid-tres {
+    height: 200px;
+    background-image: url(../img/procesador.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.productos-totales {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.precio-productos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.botoncompra {
+   color: $color-negro; 
+   padding: 10px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+}
+
+/* Termina productos.html */

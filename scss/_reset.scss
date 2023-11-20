@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $color-blanco;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+body {
+    background-image: url(../img/logo.jpg);
+    background-size: 100px;
+    background-color: gray;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    height: 80px;
+    font-family: 'Pixelify Sans', cursive;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+main{
+    height: calc(100vh - 20px);   
+    background-color: black;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+h2{
+    color: black;
+}
+
+h5{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}

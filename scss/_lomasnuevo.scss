@@ -1,0 +1,70 @@
+/*Empieza lomasnuevo.html*/
+
+.main-lomasnuevo {
+    background-image: url(../img/logomsi.jpg);
+}
+
+.div-lomastitulo {
+    background-color: rgba(255, 0, 242, 0.5);
+    width: 80%;
+    padding: 30px;
+}
+
+.section-lomasnuevo {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.h2lomasnuevo {
+    font-size: 25px;
+    padding: 15px;
+    background-color: $background-color-rojo;
+    text-align: center;
+}
+
+.div-grid-container-lomas {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    border: 10px solid $background-color-rojo;
+    background-color: black;
+    text-align: center;
+}
+
+.div-grid-uno-lomas {
+    height: 200px;
+    background-image: url(../img/monitorgamer.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.div-grid-dos-lomas {
+    height: 200px;
+    background-image: url(../img/gabinete.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.productosnuevo-totales {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.precio-productosnuevo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.botoncompranuevo {
+    padding: 10px;
+    color: $color-negro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+}
+
+/*Termina lomasnuevo.html*/

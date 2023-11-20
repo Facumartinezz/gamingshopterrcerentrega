@@ -1,0 +1,18 @@
+/* Empieza contacto.html */
+
+.main-contactos {
+  background-image: url(../img/logilogo.png);
+}
+
+.div-contactos {
+  background-color: $background-color-rojo; 
+  width: 80%;
+  padding: 20px;
+
+  a {
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+  }
+}
+
+/* Termina contacto.html */

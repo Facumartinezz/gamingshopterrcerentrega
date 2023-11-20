@@ -1,350 +1,317 @@
- @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
- /* font-family: 'Pixelify Sans', cursive; */
- 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: 'Pixelify Sans', cursive;}
-
-body{
-background-image: url(../img/logo.jpg);
-background-size: 100px;
-background-color: gray;
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fafafa;
+  font-family: "Pixelify Sans", cursive;
 }
 
-header{
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    height: 80px;
-    font-family: 'Pixelify Sans', cursive;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+body {
+  background-image: url(../img/logo.jpg);
+  background-size: 100px;
+  background-color: gray;
 }
 
-h2{
-    color: black;
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  height: 80px;
+  font-family: "Pixelify Sans", cursive;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-h5{
-    color: black;
-    text-align: left;
-    font-weight: bold;
+main {
+  height: calc(100vh - 20px);
+  background-color: black;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+h2 {
+  color: black;
+}
+
+h5 {
+  color: black;
+  text-align: left;
+  font-weight: bold;
+}
+
 /*Empieza el header*/
-
-.logo{
-    font-size: 40px;
+.logo {
+  font-size: 40px;
 }
 
-.header-grid-container ul li{
-    list-style-type: none;
-    display: inline-block;
+.header-grid-container ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.header-grid-container a {
+  text-decoration: none;
 }
 
-.header-grid-container a{
-    text-decoration: none;
-
-}
 /* Termina el header */
-main{
-    height: calc(100vh - 20px);   
-    background-color: black;
-    background-image: url(../img/fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-}
 /* Empieza el index */
-
-
-
-.bienvenida-grid-container{
-    background-color: rgb(0, 0, 255, 0.5);
-    width: 80%;
-    padding: 30px;
-    
+.bienvenida-grid-container {
+  background-color: rgb(64, 25, 236);
+  width: 80%;
+  padding: 30px;
+}
+.bienvenida-grid-container p {
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bienvenida-grid-container a {
+  color: rgb(64, 25, 236);
+  background-color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 15px;
 }
 
-.bienvenida-grid-container p{
-    margin-bottom: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-
+.div-index p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 20px;
+  font-size: 15px;
 }
 
-.bienvenida-grid-container a{
-    color: blue;
-    background-color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    padding: 10px 10px;
-    border-radius: 15px;
+.productos-itotales {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
 }
 
-
-.div-index p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 20px;
-    font-size: 15px;
+.precio-iproductos {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
 }
 
-.productos-itotales{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+.botoncompra {
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.7294117647);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 10px;
 }
 
-.precio-iproductos{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+.p-carousel {
+  color: rgba(0, 0, 0, 0.7294117647);
+  font-size: 20px;
 }
-
-.botoncompra{
-    padding: 10px;
-    color: black;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 10px;
-}
-
-.p-carousel{
-    color: black;
-    font-size: 20px;
-}
-
 
 /* Termina el index */
+/* Empieza el footer */
+#footer {
+  background-color: rgb(64, 25, 236);
+  font-size: 20px;
+  padding: 10px;
+}
 
+.div-footer {
+  text-align: right;
+  font-size: 15px;
+}
 
-
+/*Termina el footer*/
 /* Empieza productos.html */
-.main-productos{
-    background-image: url(../img/asuslogo.jpg);
+.main-productos {
+  background-image: url(../img/asuslogo.jpg);
 }
 
-.h2productos{
-    text-align: center;
-    padding: 30px;
-    font-size: 40px;
-    background-color: blue;
+.h2productos {
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+  background-color: rgb(64, 25, 236);
 }
 
-.div-productos-titulo{
-    background-color: rgba(0, 255, 183, 0.5);
-    width: 80%;
-    padding: 20px;
-    text-align: center;
+.div-productos-titulo {
+  background-color: rgba(0, 255, 183, 0.5);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 
-
-
-.h2lomasvendido{
-    font-size: 35px;
-    padding: 15px;
-    width: 90%;
-    background-color: blue;
+.h2lomasvendido {
+  font-size: 35px;
+  padding: 15px;
+  width: 90%;
+  background-color: rgb(64, 25, 236);
 }
 
-.section-grid-container{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
+.section-grid-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
 }
 
-.div-grid-container{
-    width: 300px;
-    height: 400px;
-    text-align: center;
-    border-radius: 15px;
-    border: 10px solid silver;
-    background-color: black;
+.div-grid-container {
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  border-radius: 15px;
+  border: 10px solid silver;
+  background-color: black;
 }
 
-.div-grid-uno{
-    height: 200px;
-    background-image: url(../img/monitorgamer.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
+.div-grid-uno {
+  height: 200px;
+  background-image: url(../img/monitorgamer.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.div-grid-dos{
-    height: 200px;
-    background-image: url(../img/gabinete.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-
+.div-grid-dos {
+  height: 200px;
+  background-image: url(../img/gabinete.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.div-grid-tres{
-    height: 200px;
-    background-image: url(../img/procesador.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-
+.div-grid-tres {
+  height: 200px;
+  background-image: url(../img/procesador.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
 }
 
-
-
-.productos-totales{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+.productos-totales {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
 }
 
-.precio-productos{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+.precio-productos {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
 }
 
-.botoncompra{
-    padding: 10px;
-    color: black;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 10px;
+.botoncompra {
+  color: rgba(0, 0, 0, 0.7294117647);
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 10px;
 }
+
 /* Termina productos.html */
-
 /*Empieza lomasnuevo.html*/
-
-.main-lomasnuevo{
-    background-image: url(../img/logomsi.jpg);
+.main-lomasnuevo {
+  background-image: url(../img/logomsi.jpg);
 }
 
-.div-lomastitulo{
-    background-color: rgba(255, 0, 242, 0.5);
-    width: 80%;
-    padding: 30px;
+.div-lomastitulo {
+  background-color: rgba(255, 0, 242, 0.5);
+  width: 80%;
+  padding: 30px;
 }
 
-.section-lomasnuevo{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
+.section-lomasnuevo {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
 }
 
-.h2lomasnuevo{
-    font-size: 25px;
-    padding: 15px;
-    background-color: red;
-    text-align: center;
+.h2lomasnuevo {
+  font-size: 25px;
+  padding: 15px;
+  background-color: rgb(255, 47, 0);
+  text-align: center;
 }
 
-.div-grid-container-lomas{
-    width: 300px;
-    height: 400px;
-    border-radius: 15px;
-    border: 10px solid red;
-    background-color: black;
-    text-align: center;
+.div-grid-container-lomas {
+  width: 300px;
+  height: 400px;
+  border-radius: 15px;
+  border: 10px solid rgb(255, 47, 0);
+  background-color: black;
+  text-align: center;
 }
 
-.div-grid-uno-lomas{
-    height: 200px;
-    background-image: url(../img/monitorgamer.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
+.div-grid-uno-lomas {
+  height: 200px;
+  background-image: url(../img/monitorgamer.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.div-grid-dos-lomas{
-    height: 200px;
-    background-image: url(../img/gabinete.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-
+.div-grid-dos-lomas {
+  height: 200px;
+  background-image: url(../img/gabinete.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0px 0px;
 }
 
-
-.productosnuevo-totales{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+.productosnuevo-totales {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
 }
 
-.precio-productosnuevo{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+.precio-productosnuevo {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
 }
 
-.botoncompranuevo{
-    padding: 10px;
-    color: black;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 10px;
+.botoncompranuevo {
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.7294117647);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 10px;
 }
-
 
 /*Termina lomasnuevo.html*/
-
 /* Empieza contacto.html */
-.main-contactos{
-    background-image: url(../img/logilogo.png);
+.main-contactos {
+  background-image: url(../img/logilogo.png);
 }
 
-.div-contactos{ 
-    background-color: rgba(255, 47, 0, 0.5);
-    width: 80%;
-    padding: 20px;
-    
+.div-contactos {
+  background-color: rgb(255, 47, 0);
+  width: 80%;
+  padding: 20px;
+}
+.div-contactos a {
+  text-transform: uppercase;
+  font-family: "Exo 2", sans-serif;
 }
 
-.div-contactos a{
-    text-transform: uppercase;
-    font-family: 'Exo 2', sans-serif;
-    
-}
 /* Termina contacto.html */
-
 /* empieza nosotros.html */
- .main-nosotros{
-    background-image: url(../img/razerlogo.png);
-
-} 
-
-.div-nosotros{
-    background-color: rgba(0, 229, 255, 0.5);
-    width: 80%;
-    padding: 30px;
-    
+.main-nosotros {
+  background-image: url(../img/razerlogo.png);
 }
-.h1nosotros{
-    text-align: center;
-    font-size: 40px;
-}
-.div-nosotros a{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.div-nosotros p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+.div-nosotros {
+  background-color: rgba(0, 229, 255, 0.5);
+  width: 80%;
+  padding: 30px;
+}
+
+.h1nosotros {
+  text-align: center;
+  font-size: 40px;
+}
+
+.div-nosotros a, .div-nosotros p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /* termina nosotros.html */
 
-
-
-
-
-
-/* Empieza el footer */
-#footer{
-    background-color: blue;
-    font-size: 20px;
-    padding: 10px;
-}
-
-.div-footer{
-    text-align: right;
-    font-size: 15px;
-}
+/*# sourceMappingURL=estilos.css.map */
